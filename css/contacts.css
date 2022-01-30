@@ -171,7 +171,6 @@ span {
     width: 280px;
     height: 598px;
     z-index: 1;
-    /* background-color: #F0D1A5; */
     margin-bottom: 17px;
     position: relative;
 
@@ -262,20 +261,6 @@ span {
     position: inherit;
     z-index: 3;
 }
-
-/* span {
-    color: #fff;
-    position: inherit;
-    z-index: 3;
-    width: 26px;
-    height: 6px;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 
 .product-list__text {
     font-family: DM Sans;
