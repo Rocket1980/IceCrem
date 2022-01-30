@@ -122,3 +122,113 @@ span {
 .header-connection-tel:focus {
     color: var(--theme-color);
 }
+
+/* ========== IceCrem ========== */
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+/* .product-list__card {
+    width: 280px;
+    height: 598px;
+    
+} */
+
+.product-list__ice {
+    width: 280px;
+    height: 598px;
+    z-index: 1;
+    /* background-color: #F0D1A5; */
+    margin-bottom: 17px;
+    position: relative;
+
+}
+
+.product-list__ice::before {
+    content: '';
+    position: absolute;
+    top: 19%;
+    left: 0;
+    width: 280px;
+    height: 485px;
+    background-color: #FFB8CA;
+    border-radius: 24px;
+    z-index: 2;
+        
+}
+
+.product-list__coffe {
+    width: 280px;
+    height: 598px;
+    z-index: 1;
+    /* background-color: #F0D1A5; */
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.product-list__coffe::before {
+    content: '';
+    position: absolute;
+    top: 19%;
+    left: 0;
+    width: 280px;
+    height: 485px;
+    background-color: #F0D1A5;
+    border-radius: 24px;
+    z-index: 2;
+
+}
+
+.product-list__shake {
+    width: 280px;
+    height: 598px;
+    z-index: 1;
+    /* background-color: #F0D1A5; */
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.product-list__shake::before {
+    content: '';
+    position: absolute;
+    top: 19%;
+    left: 0;
+    width: 280px;
+    height: 485px;
+    background-color: #C2E297;
+    border-radius: 24px;
+    z-index: 2;
+
+}
+
+.product-list__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: inherit;
+    z-index: 3;
+}
+
+.product-list__header {
+    
+}
+
+
+.product-list__text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.product-list__arrow {
+    display: flex;
+    align-items: center;
+}
+
